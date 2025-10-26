@@ -63,7 +63,7 @@ const Chat = () => {
       .join("\n");
 
     const prompt = `
-You are a girlfriend named "${user?.companionName || "Companion"}".
+You are a companion named "${user?.companionName || "Companion"}".
 
 Traits of the User:
 - Name: ${user?.name}
